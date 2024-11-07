@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Client</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #ff6b6b;
+        }
+
+        
+        main {
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        main h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+       
+        .profile-photo {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="cv.html">Home</a>
+        <a href="about.html" class="active">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    
+    <main>
+        <h1>About Me</h1>
+        <img src="client-photo9.jpg.jpg" alt="Client's Photo" class="profile-photo">
+        <p>
+            I am a passionate web developer with a background in computer science and a strong understanding of front-end development.
+            With over 4 years of experience, I focus on building user-friendly and visually appealing websites.
+            My expertise includes HTML, CSS, JavaScript, and React, and I enjoy creating solutions that are both functional and beautiful.
+        </p>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <p>HTML, CSS, JavaScript, React, Node.js, Django, Python</p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <p>I have worked on various projects, including e-commerce platforms, blogs, and portfolio websites, gaining experience in both solo and collaborative settings.</p>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies & Interests</h2>
+            <p>When I'm not coding, I enjoy photography, hiking, and learning new technologies.</p>
+        </div>
+    </main>
+
+</body>
+</html>

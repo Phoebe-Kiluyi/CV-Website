@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client - Web Developer</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff; 
+            color: #333; 
+        }
+
+        
+        .container {
+            max-width: 800px; 
+            width: 100%;
+            padding: 20px; 
+            background-color: rgba(0, 0, 0, 0.05); 
+            border-radius: 10px; 
+            text-align: center; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+        }
+
+        
+        nav {
+            width: 100%;
+            background-color: #333;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover,
+        nav a.active {
+            color: #ff6b6b;
+        }
+
+        
+        .intro img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+
+        .intro h1 {
+            font-size: 2.5rem;
+            color: #333; 
+            margin: 10px 0;
+        }
+
+        .intro h2 {
+            font-size: 1.5rem;
+            color: #777; 
+            font-weight: 400;
+        }
+
+        .intro p {
+            font-size: 1rem;
+            color: #555; 
+            line-height: 1.6;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <a href="cv.html" class="active">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    
+    <div class="container">
+        <header class="intro">
+            <img src="photo.jpg.jpg" alt="Client's Photo" class="profile-photo"> 
+            <h1>Client</h1>
+            <h2>Web Developer & Designer</h2>
+            <p>I’m a creative web developer with over 4 years of experience in creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript, with a passion for clean design and user experience.</p>
+        </header>
+    </div>
+
+</body>
+</html>
